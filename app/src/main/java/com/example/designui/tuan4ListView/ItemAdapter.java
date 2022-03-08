@@ -5,8 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.designui.R;
 
@@ -41,6 +43,7 @@ public class ItemAdapter extends BaseAdapter {
     private class ViewHolder {
         TextView txtTenSP, txtTenShop;
         ImageView imgHinh;
+        Button btnChat;
     }
 
     @Override
@@ -56,6 +59,14 @@ public class ItemAdapter extends BaseAdapter {
             viewHolder.txtTenSP = convertView.findViewById(R.id.txtName);
             viewHolder.txtTenShop = convertView.findViewById(R.id.txtTenShop);
             viewHolder.imgHinh = convertView.findViewById(R.id.imgHinh);
+            viewHolder.btnChat =convertView.findViewById(R.id.btnChat);
+            View finalConvertView = convertView;
+            viewHolder.btnChat.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(finalConvertView.getContext(), "Selected button", Toast.LENGTH_LONG).show();
+                }
+            });
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
