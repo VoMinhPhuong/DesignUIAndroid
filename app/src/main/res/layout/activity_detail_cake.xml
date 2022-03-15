@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imgHinh"
-        android:layout_width="413dp"
-        android:layout_height="262dp"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
         android:src="@drawable/donut_yellow_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
