@@ -4,16 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/bg_design.xml" value="0.1765" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/boder_design.xml" value="0.26614583333333336" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/border_text.xml" value="0.26205128205128203" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/button_border_desgin.xml" value="0.26614583333333336" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.1505" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1505" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/ic_plus_border.xml" value="0.219" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/ic_yellow_block.xml" value="0.1505" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/striking_text.xml" value="0.1765" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/view_background.xml" value="0.219" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/activity_activity3a.xml" value="0.264" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/activity_cake.xml" value="0.25" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/activity_detail_cake.xml" value="0.25" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/activity_main_activity2b.xml" value="0.2" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/button_listview.xml" value="0.25" />
+        <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/item_cake_tuan5.xml" value="0.264" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/item_list_view.xml" value="0.2" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/item_listview.xml" value="0.264" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/layout/listview_activity_main.xml" value="0.264" />
