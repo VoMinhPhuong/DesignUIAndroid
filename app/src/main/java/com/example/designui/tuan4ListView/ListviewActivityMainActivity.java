@@ -17,7 +17,7 @@ public class ListviewActivityMainActivity extends AppCompatActivity {
     ListView listView1;
     ArrayList<Item> arrayList;
     ItemAdapter adapter;
-
+    Button btnClick;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +43,5 @@ public class ListviewActivityMainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Selected item " + position, Toast.LENGTH_LONG).show();
             }
         });
-
     }
 }

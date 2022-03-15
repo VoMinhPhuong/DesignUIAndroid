@@ -1,6 +1,7 @@
 package com.example.designui.tuan5DuLieu;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -56,7 +57,7 @@ public class CakeAdapter extends BaseAdapter {
 
             viewHolder.txtTenSP = convertView.findViewById(R.id.txtName);
             viewHolder.txtNote = convertView.findViewById(R.id.txtNote);
-            viewHolder.txtMoney = convertView.findViewById(R.id.txtNote);
+            viewHolder.txtMoney = convertView.findViewById(R.id.txtMoney);
             viewHolder.hinh = convertView.findViewById(R.id.imgHinh);
             viewHolder.btnDetail = convertView.findViewById(R.id.btnDetail);
             convertView.setTag(viewHolder);
