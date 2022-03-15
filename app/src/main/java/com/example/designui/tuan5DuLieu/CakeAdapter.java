@@ -61,6 +61,7 @@ public class CakeAdapter extends BaseAdapter {
             viewHolder.hinh = convertView.findViewById(R.id.imgHinh);
             viewHolder.btnDetail = convertView.findViewById(R.id.btnDetail);
             convertView.setTag(viewHolder);
+
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }

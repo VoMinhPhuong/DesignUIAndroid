@@ -10,4 +10,5 @@ public class Cake {
         this.giaTien = giaTien;
         this.hinhAnh = hinhAnh;
     }
+
 }
