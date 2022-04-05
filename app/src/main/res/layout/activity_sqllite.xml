@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tuan7SQL.SqlliteActivity"
+    android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/edtTen"
+       android:layout_width="348dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:background="@drawable/text_tuan7"
+       android:drawableLeft="@drawable/vector"
+       android:drawablePadding="10dp"
+       android:hint="Put name to add"
+       android:padding="5dp"
+       android:textColor="@color/black"
+       android:textColorHint="@color/black"
+       android:textSize="15dp" />
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <Button
+          android:id="@+id/btnThem"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Add"
+          android:textAllCaps="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.018"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0" />
+
+      <Button
+          android:id="@+id/btnXoa"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Remove"
+          android:textAllCaps="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.192"
+          app:layout_constraintStart_toEndOf="@+id/btnThem"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0" />
+
+      <Button
+          android:id="@+id/btnThoat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cancel"
+          android:textAllCaps="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.453"
+          app:layout_constraintStart_toEndOf="@+id/btnXoa"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+   <ListView
+       android:id="@+id/lvwMain"
+       android:background="#6FBDA1"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"/>
+</LinearLayout>

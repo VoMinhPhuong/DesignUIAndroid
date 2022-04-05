@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/bg_design.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/border_text.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/button_border_desgin.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/text_tuan7.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_sqllite.xml" value="0.264" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/item_tuan7.xml" value="0.25" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/bg_design.xml" value="0.1765" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/boder_design.xml" value="0.26614583333333336" />
