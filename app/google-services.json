@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "712343709704",
+    "project_id": "designui-92568",
+    "storage_bucket": "designui-92568.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712343709704:android:b3a8eca4bcaeca4bb589bd",
+        "android_client_info": {
+          "package_name": "com.example.designui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712343709704-oeo5pogsvfdb5ls9bajkfh9hdtchko6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.designui",
+            "certificate_hash": "4cea42b76d01fdd0dc0d656a271f8710b3d6aecc"
+          }
+        },
+        {
+          "client_id": "712343709704-2kdbar14hbhsdtbtc709b2ce9eh72j71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR5ntGs86iAUA1br0UcSU8Y9fv3vNYznU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712343709704-2kdbar14hbhsdtbtc709b2ce9eh72j71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

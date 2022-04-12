@@ -6,9 +6,20 @@
         <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/bg_design.xml" value="0.1965" />
         <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/border_text.xml" value="0.1965" />
         <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/button_border_desgin.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/login_success.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/main_login_layout.xml" value="0.1965" />
         <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/text_tuan7.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/tuan8_button.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/tuan8_button_register.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/drawable/tuan8_view_boder.xml" value="0.1965" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_login2.xml" value="0.2" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_main.xml" value="0.1875" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_main_activity2b.xml" value="0.1875" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/activity_sqllite.xml" value="0.264" />
         <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/item_tuan7.xml" value="0.25" />
+        <entry key="..\:/HK2/Android/DesignUIAndroid/app/src/main/res/layout/login_success.xml" value="0.1875" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/bg_design.xml" value="0.1765" />
         <entry key="..\:/HK2/Android/DesignUIAndroidLap2/app/src/main/res/drawable/boder_design.xml" value="0.26614583333333336" />

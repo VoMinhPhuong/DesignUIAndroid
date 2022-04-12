@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.designui">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DesignUI">
         <activity
-            android:name=".tuan7SQL.SqlliteActivity"
-            android:exported="true" >
+            android:name=".tuan8Firebase.Login_success"
+            android:exported="false" />
+        <activity
+            android:name=".tuan8Firebase.RegisterActivity"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".tuan8Firebase.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan8Firebase.MainLoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,20 +30,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".tuan7SQL.SqlliteActivity"
+            android:exported="false" />
+        <activity
             android:name=".tuan5DuLieu.DetailCake"
             android:exported="false" />
         <activity
             android:name=".tuan5DuLieu.CakeActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".tuan4ListView.ListviewActivityMainActivity"
-            android:exported="true"></activity>
-        <activity android:name=".Activity3a" />
-        <activity android:name=".MainActivity2b" />
-        <activity android:name=".MainActivity" />
-
+            android:exported="true" />
+        <activity android:name=".tuan3.Activity3a" />
+        <activity android:name=".tuan2.MainActivity2b" />
+        <activity android:name=".tuan2.MainActivity" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
