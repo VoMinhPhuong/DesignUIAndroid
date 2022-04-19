@@ -17,12 +17,15 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class LoginActivity extends AppCompatActivity {
 
     EditText txtEmail, txtPass;
     Button btnLogin;
+    DatabaseReference mDatasbase;
     FirebaseAuth fAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         txtEmail = findViewById(R.id.txtEmail);
         txtPass = findViewById(R.id.txtPass);
         btnLogin = findViewById(R.id.btnSignIn);
+        mDatasbase = FirebaseDatabase.getInstance().getReference();
         fAuth = FirebaseAuth.getInstance();
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -47,18 +51,19 @@ public class LoginActivity extends AppCompatActivity {
                     txtPass.setError("Email is Required");
                     return;
                 }
-
                 fAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Logn in success", Toast.LENGTH_SHORT).show();
+                            mDatasbase.child("mail").setValue(email);
                             startActivity(new Intent(getApplicationContext(), Login_success.class));
                         } else {
                             Toast.makeText(LoginActivity.this, "Error", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
+
             }
         });
     }
